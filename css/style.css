@@ -13,7 +13,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 290px);
+  grid-template-columns: repeat(4, 310px);
   gap: 15px;
   grid-template-areas:
     "masonry responsive overlap overlap"
@@ -23,13 +23,13 @@
   margin: 0 auto;
   justify-content: center;
 }
-.item {
-  background-color: azure;
-  color: rgb(49, 49, 254);
+.box {
+  background-color: white;
+  color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: large;
+  font: 30px;
   min-height: 130px;
 }
 .masonry {
